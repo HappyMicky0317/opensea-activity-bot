@@ -1,0 +1,11 @@
+{
+  "include": ["src/*.ts"],
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2020",
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true
+  }
+}
